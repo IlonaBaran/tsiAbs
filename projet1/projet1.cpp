@@ -48,7 +48,7 @@ int main()
     glfwMakeContextCurrent(window);
 
     // Initialisation de ImGui
-        IMGUI_CHECKVERSION();
+        //IMGUI_CHECKVERSION();
         ImGui::CreateContext();
         ImGuiIO& io = ImGui::GetIO();
 
